@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+body{
+    height: 900px;
+    width:900px;
+    background-color: darkgray;
+}
+.container{
+    width: 900px;
+    height: 900px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+   
+}
+div>img{
+    border-radius: 30px;
+    padding: 10px;
+}
